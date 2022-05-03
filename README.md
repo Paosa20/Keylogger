@@ -1,2 +1,2 @@
 # Keylogger
-Small keylogger malware build with Python
+Small keylogger malware build in Python
